@@ -1,0 +1,17 @@
+mov r0 10
+mov r1 5
+add r2 r0 r1
+sub r3 r0 r1
+mul r4 r0 r1
+ldr r5 r2
+str r5 r1
+cmp r0 r1
+beq label1
+bne label2
+b label3
+label1:
+    mov r7 10
+label2:
+    add r7 r7 r1
+label3:
+    sub r7 r7 r0
